@@ -1,0 +1,95 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Account.master.vb" Inherits="PITER.Account" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <webopt:bundlereference runat="server" path="~/Content/main" />
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/account.min.css" rel="stylesheet" />
+    <asp:PlaceHolder runat="server">
+        <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- BEGIN CORE PLUGINS -->
+        <!--[if lt IE 9]>
+        <%: Scripts.Render("~/bundles/IEfixups") %>
+        <![endif]-->
+        <%: Scripts.Render("~/bundles/modernizr") %>
+        <%: Scripts.Render("~/bundles/main") %>
+        <%: Scripts.Render("~/bundles/plugin") %>
+		
+    </asp:PlaceHolder>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Scripts>
+                 <asp:ScriptReference Name="MsAjaxBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+        <div id="container0">
+            <!-- header -->
+			<div id="header">
+				<!-- logo -->
+				<div id="logo" style="background-color:transparent;">
+                    <a href="<%=Page.ResolveClientUrl("~/Default") %>" title="PITER" >
+                        <img src="~/Content/images/logo.png" id="LogoImg" runat="server" style="width:auto; height:60px;"/>
+
+                    </a>	
+				</div>
+				<!-- /logo -->
+				<!-- navigation -->
+					<div id="navigation">
+					    <asp:HyperLink ID="HomeLink" runat="server"><i class="fa fa-home fa-2x"></i></asp:HyperLink>
+					</div>
+                   <div style="clear: both;"></div> 
+					<!-- / navigation  -->
+			</div>
+			<!-- /header -->
+		    <div id="container1">
+			    <div id="container2">
+				    <div id="container3">    
+					    <div id="page_curv_top"></div>
+					    <div id="content_con">
+						    <div class="container">
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server"/>	
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+		    </div>                                     
+        </div>
+        <!-- footer -->
+		<div id="footer">
+            <div class="footer_con">
+                <div class="container">
+				    <div class="row" style="margin-top:55px;">
+                        <hr />
+                        <div class="col-sm-8">
+                            <p>
+                                &copy; <%=ConfigurationManager.AppSettings("App_Title") %> <%=Now.Year %>. All Rights Reserved.
+                            </p>
+                       
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#">PRIVACY</a> | <a href="#">LICENZA D'USO</a>    
+                        </div>
+                        
+				    </div>
+                    
+			    </div>
+            </div>
+            
+		</div>
+		<!-- /footer -->
+    </form>
+</body>
+</html>

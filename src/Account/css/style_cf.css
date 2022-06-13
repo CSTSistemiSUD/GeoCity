@@ -1,0 +1,572 @@
+/*
+    File Name: style_cf.css
+    Only Color and Background Values Of All Elements
+    
+*/
+
+
+
+/* Layout general*/
+/* Backgrounds */
+    #container{
+        background:#fff;
+    }  
+
+    #container1{
+        background:#fff url(images/background_repeat.jpg) 0 50px repeat-x;
+    }
+    
+    #container2{
+        background:transparent url(images/background.jpg) center 25px no-repeat;
+    }
+ 
+/* main layout */
+
+    /* page curv top */
+    .page_curv_top{
+        background:transparent url(images/page_curv_top.png) center no-repeat;
+    }
+    
+    .content_con{
+        background:transparent url(images/page_content.png) center repeat-y;
+    } 
+
+    /* sidebar */
+    .sidebar{
+        background: transparent url(images/side_bar_shadow_repeat.jpg) left repeat-y;
+    }
+
+    /* layers for side shadow */
+    .sidebars1{ 
+        background:transparent url(images/sidebar_shadow_bottom.jpg) left bottom no-repeat;
+    }
+
+    .sidebars2{ 
+        background:transparent url(images/sidebar_shadow_top.jpg) left top no-repeat;
+    }
+ 
+ /* Featured Boxes */
+ 
+    /* border of heading on featured boxes (home page, side bars)   */        
+    .box.small h4, .box.small h5, .box.single h3,  .box.side h4, .box.side h3{
+        border-bottom:1px dotted #D5D5D5;
+    }
+    
+    /* different color in home page welcome text */  
+    .box.single h3 span{
+        color:#C2A881;
+    }
+ 
+ /* Products detail tabs */
+
+    #tabs .tabnav li{
+        background:url(images/tab.jpg) right top;
+    }   
+
+    #tabs .tabnav li a{
+        background:url(images/tab.jpg) left top;
+        color: #A9A9AE;
+    }
+    
+    /* tab color hover state */
+    #tabs .tabnav li.ui-tabs-selected a,#tabs .tabnav li.ui-tabs-selected a:hover,  #tabs ul li a:hover, #tabs ul li.ui-tabs-selected{
+        color:#ed7c0d;        
+    }
+
+    /* tab color active state */
+     #tabs ul li.ui-tabs-selected{
+        color:#ed7c0d;
+    }
+
+    /* for product photos tab images */
+    #photos img{
+        border:1px solid #eeeeee;
+    }
+
+
+/* Product List Page*/
+
+     /* Product Box*/
+    .box.product{
+        background:url(images/small_box_middle.jpg) repeat-y;
+    }
+        
+    /* Price */         
+    .box.product .textarea .price{
+        color:#D5D5D5;
+    }
+    
+/* Product Detail Page */
+
+     /* Tab Area*/   
+    .box.full{
+        background:url(images/full_box_middle.jpg) repeat-y;
+    }
+
+    /* Product Detail Page*/
+    .box.full .box.product {
+        border-bottom:1px dotted #D5D5D5;
+    }
+
+    /* Product Photos in Tabs (related products) */
+    .box.full .box.product .product_image{
+        border:1px dotted #D5D5D5;
+    }
+        
+/* Blog */
+    
+    /* post image */
+    .box.blog .post_image{
+        border-bottom:1px dotted #D5D5D5;
+        border-top:1px dotted #D5D5D5;
+    }
+    
+    /* Date and Categories Bar */
+    .box.blog .dateandcategories{
+        border-bottom:1px dotted #D5D5D5;
+        border-top:1px dotted #D5D5D5;
+        color:#989898;
+    }
+
+    /* Links For Date and Categories */
+    .box.blog .dateandcategories a{
+        color:#989898;
+    }
+    
+    .box.blog .dateandcategories a:hover{
+        color:#C2A881;
+    }
+        
+        
+/* Portfolio */
+    .box.big_box{
+        background:url(images/big_box_middle.jpg) repeat-y;
+    }
+
+    /* Portfolio Categories Bar*/        
+    .portfolio_categories{
+        background:url(images/portf_categories.jpg) no-repeat;
+    }
+        
+    /* Left Side Text */     
+    .portfolio_categories h5{
+        color:#B5B5B5;
+    }
+
+    /* Category Links Style*/ 
+    .portfolio_categories ul li a{
+        color:#B5B5B5;
+    }        
+
+    .portfolio_categories ul li a:hover{
+        color:#C2A881;
+    }
+
+    /* Category Links Active Page Style */ 
+    .portfolio_categories ul li a.active{
+        color:#C2A881;
+    }
+
+    .portfolio_categories ul li a.active:hover{
+        color:#ed7c0d;
+    }
+
+/* Portfolio Slider */
+
+    /* Content Area */
+    .portfolio_slide_content{
+        background:#f08e2f url(images/portfolio_light.png) top left no-repeat;
+    }
+        
+    /* Slide Title */
+    .portfolio_slide_content .title{
+       border-bottom:1px dashed #F6FBE0;
+       color:#F6FBE0;
+   }
+ 
+    /* Title Link */
+    .portfolio_slide_content .title  a{
+        color:#fff;
+    }
+    
+    .portfolio_slide_content .title  a:hover{
+        color:#7F6E54;
+    }
+
+    /* Category Link */    
+    .portfolio_slide_content .title  a.cat{
+        color:#F6FBE0;
+    }
+
+    .portfolio_slide_content .title  a.cat:hover{
+        color:#7F6E54;
+    }
+
+    /* Content Link */
+    .portfolio_slide_content .text a{
+        color:#fff;
+    }
+    
+    .portfolio_slide_content .text a:hover{
+        color:#fff;
+    }
+        
+    /* Content Text */
+    .portfolio_slide_content .text{
+        color:#fff;
+    }
+       
+    /* Slider Arrows */ 
+
+    .portfolio_slider_arrows .left{
+        background:url(images/portfolio_slider_arrows.png) left no-repeat;
+    }
+
+    .portfolio_slider_arrows .right{
+        background:url(images/portfolio_slider_arrows.png) right no-repeat;            
+    }
+    
+    /* Play and Zoom Icon */    
+    .play{
+      background:url(images/play.png) center no-repeat;
+    }
+    
+    .magnifier{
+      background:url(images/magnifier.png) center no-repeat;
+    }
+    
+/* Paging */
+
+
+    /* paging link*/
+   .paging ul li a, .paging ul li.active a{
+       background:url(images/paging_buttons.jpg) 104px 0 ;
+       color:#C3C3C3;
+   }
+   
+    /* paging mouseover*/
+    .paging ul li.active a, .paging ul li a:hover{
+       color:#fff;
+       background:url(images/paging_buttons.jpg) 200px 0 ;
+    }
+     
+    /* Arrow Left */   
+    .paging ul li.arrowleft a{
+         background:url(images/paging_buttons.jpg) 72px 0 ;
+    }
+        
+    /* Arrow Left Hover State */
+    .paging ul li.arrowleft a:hover{
+         background:url(images/paging_buttons.jpg) 168px 0 ;
+    }        
+
+    /* Arrow Right  */
+    .paging ul li.arrowright a{
+         background:url(images/paging_buttons.jpg) 40px 0 ;
+        
+    }
+    
+    /* Arrow Right Hover State */    
+    .paging ul li.arrowright a:hover{
+         background:url(images/paging_buttons.jpg) 136px 0 ;
+    } 
+ 
+/* News Box */
+    .news_line{
+        background:transparent url(images/line_silver.jpg) repeat-x;
+    }
+
+    .news_date{
+        color:#C3C3C3;
+    }
+    
+        
+/* Home Page Slider */
+   
+        
+    /* slider right side #ed7c0d slider_right_color.jpg*/
+    #slider_area .right_side{
+        background:#00687D url(images/header-bg1.jpg) top left no-repeat;
+        border-left:10px solid white;
+        color:#fff;
+    }
+
+    #slider_area .right_side a, .right_side h3{
+        color:#fff;
+    }    
+        
+    #slider_area .right_side a:hover{
+        color:#fff;
+    }
+    
+    .slider_curv{
+        background:transparent url(images/slider_curv.png) center no-repeat;
+    }
+
+    /* slider numbers*/
+    /* active number style*/
+    #numbers    a{ 
+        background: transparent url(images/slider_points.png) right top no-repeat;
+    }
+    
+    #numbers   a:hover{ 
+        background: transparent url(images/slider_points.png) left top no-repeat;
+    }
+    
+    #numbers   a.activeSlide{ 
+        background: transparent url(images/slider_points.png) left top no-repeat;
+    }
+
+
+/* sub navigation */
+
+    /*Sub page list*/
+    #sub_menu  li{	
+        border-bottom:1px dotted #D5D5D5;
+    }
+    
+    /*Sub page menu*/
+    #sub_menu  li a{
+        background:transparent url(images/side_arrow_off.jpg) no-repeat;
+        color:#979C97;               
+    }
+    
+    #sub_menu  li a:hover{
+        background:transparent url(images/side_arrow_on.jpg) no-repeat;
+        color:#ed7c0d;
+    }
+        
+
+/* Footer */
+    #footer {
+        background:transparent url(images/footer_repeat.jpg) repeat-x;
+        color:#9D9D9D;
+    }
+    
+    #footer .footer_con{
+        background:transparent url(images/footer.jpg) center top no-repeat;                
+    }
+    
+    /* footer1 links */
+    #footer  a{
+        color:#9D9D9D;
+    }
+    
+    #footer  a:hover{
+    }
+
+/*  sub page header */
+    .sub_header{
+        border-bottom:1px solid #E4E4E4;
+    }
+        
+/* Breadcrumb Menu */
+    .breadcrumb{
+        color:#c7c7c7;
+    }
+    
+    .breadcrumb  a{	
+        color:#969696;
+    }
+    
+/* search bar */
+    .search_bar{
+        background:url(images/search.jpg) no-repeat;
+    }
+    
+    .search_bar form input{
+        color:#adadad;
+    }
+    
+/* Navigation */
+    .navigation{
+        background: transparent; /*background of menu bar (default state)*/
+    }
+    
+    /*Top level menu link items style*/
+    .navigation ul li a{
+        color:#3E2811;
+    }
+    
+    .navigation ul li ul li a{
+        border-bottom:1px dashed #F79F46; 
+    }
+    
+    .navigation ul li .first_ul li a:hover, .navigation ul li ul a.selected{
+        color:#E8E4C1;
+    }
+    
+    /* active state & hover state */         
+    .li_active, .navigation ul .active, ul.navigation li.current_page_item, ul.navigation li.current_page_parent {
+        background: #fff url(images/menu_button.jpg) right top no-repeat;
+        color:#fff;
+    }        
+    
+    .navigation ul li .a_active, .navigation ul .active a, ul.navigation li.current_page_item a, ul.navigation li.current_page_parent a{
+        background: #fff url(images/menu_button.jpg) left top no-repeat;
+        color:#fff;
+    }
+
+    .navigation ul li ul li, ul.navigation li ul li.current_page_item, ul.navigation li ul li.current_page_parent{
+        background: transparent url(images/drop_down_middle.png) left repeat-y;
+    }           
+    
+        
+    ul.navigation li.current_page_item ul li a,  ul.navigation li ul li a,  ul.navigation li.current_page_parent ul li a, ul.navigation li ul li.current_page_parent a{
+        background:none;
+        color:#fff;
+    }
+    
+    .navigation ul .active ul a{
+        background: none;
+    }
+    
+    
+    /*first ul background*/
+    .navigation ul li .first_ul{
+        background: transparent url(images/drop_down_bottom.png) bottom left no-repeat;
+    }  
+    
+    .navigation ul.navigation li ul .first_li{
+        background: transparent url(images/drop_down_top.png) top left no-repeat;
+    }                     
+                 
+
+/* Lists */
+    .content.sub ul ul, .content.sub ol ol{
+        border-top:0px solid #EBEBEB;;
+    }
+    
+    .content.sub ul ul li, .content.sub ol ol li{
+        border-bottom:0px solid #EBEBEB;
+    }
+    
+    .content.sub ul, .sub.content ol  {	
+        border-top:1px solid #EBEBEB;
+    }
+    
+    .sub.content li{
+        border-bottom:1px solid #EBEBEB;
+    }
+    
+    /* No Bulet List*/     
+    
+    /* sidebar list */
+    
+    .sidebar .box  li{	
+        border-bottom:1px solid #EBEBEB;
+    }
+        
+/* Links */	 
+    a{
+        color:#C2A881;
+    }
+    
+    a:hover{
+        color:#ed7c0d;
+    }
+    
+    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        color:#5D5A5D
+    }
+    
+    h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{
+        color:#C2A881;
+    }
+        
+/* Headings*/
+    h1,h2,h3,h4,h5,h6{
+        color:#6C5E48;
+    }
+    
+/* Text Elements */
+    blockquote {
+        background:transparent url(images/blockquote.png) left top no-repeat;
+        color:#A0A0A0;
+    }
+        
+/*contact form */
+/*contact form validation*/
+    #validate_form label{
+        color:#767676;
+    }
+    
+    #validate_form label.error {
+        color: red;
+        border: 0px solid red;
+    }
+    
+    #validate_form .error{
+        color: red;
+        border: 1px solid red;
+    }
+    
+/* Form Messages*/
+    .ok_box{
+        border:1px  dashed green;
+        color:green;
+    }    
+
+    .ok_box h3{
+        color:green;
+    }    
+    .error_box, #loader{
+        border:1px  dashed red;
+        color:red;
+    }
+    
+/* Forms */
+    /*
+	input, select{
+        color:#696969;
+        border:1px solid #EBEBEB;
+        height:auto;
+    }
+    input[type="checkbox"]{ border:none; height:auto;}
+textarea{color:#696969;
+        border:1px solid #EBEBEB;}
+*/
+    
+    
+        
+        
+
+   
+
+/* Utilizzati nella pagina dei contatti*/
+    .contatti_name
+    { 
+        width:200px;
+    }
+
+    .contatti_mail
+    { 
+        width:200px;
+    } 
+ 
+    .contatti_object
+    { 
+        width:400px;
+    }
+
+    .contatti_body
+    { 
+        width:400px;
+    } 
+
+
+
+
+
+.contatti_mail
+{ 
+   width:200px;
+}  
+      
+      
+      .abbonamenti
+      {
+      	
+      	float: left; background-image: url(images/offerte.png); position: relative; 
+      	width: 296px; height: 490px; left: 0px; top: 0px;
+      	}

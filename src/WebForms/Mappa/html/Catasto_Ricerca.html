@@ -1,0 +1,115 @@
+﻿<a class="btn btn-info" role="button" data-id="btnShowInfo" > INFO AGGIORNAMENTO DATI</a>
+<div data-id="dialogInfo" class="alert alert-info alert-dismissible" role="alert" style="display:none;">
+	<p><strong>INFORMAZIONI SULL'AGGIORNAMENTO DEI DATI CATASTALI</strong></p>
+</div>
+
+<div data-id="dialogContent" style="margin-top:15px;">
+	<div id="divRicercaCatasto" class="row">
+		<div class="col-lg-12">
+			<div class="input-group">
+				<input id="txtRicercaCatasto" type="text" class="form-control" placeholder="Cerca per Cognome o Denominazione...">
+				<span class="input-group-btn">
+					<button id="btnRicercaCatasto" class="btn btn-default" type="button">Vai!</button>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="spinner spinner-sm" style="display:none;"></div>
+
+	<div style="max-height:400px; overflow:auto;">
+		<table class="table table-bordered table-condensed">
+
+			<tbody id="tblRicercaCatasto"></tbody>
+		</table>
+	</div>
+</div>
+
+
+
+<script type="text/x-jsrender" id="tmplRigaRicercaCatasto">
+	<tr>
+		<td style="width:25px;"><a href="#" class="toggle-next-row" data-id="{{:IdSoggetto}}"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
+		<td style="width:40%;">{{:denominazione}}</td>
+		<td style="width:60%;">{{if ~jsIsEmpty(luogoNascita) == false}}NATO A {{:luogoNascita}} {{/if}}{{if ~jsIsEmpty(luogoNascita) == false}} IL {{:~jsConvertISODate(dataNascita)}}{{/if}}</td>
+		<td style="width:100px;">{{:cf_iva}}</td>
+	</tr>
+	<tr style="display:none;">
+		<td style="width:25px;"></td>
+		<td colspan="3">
+			<div class="risultati">
+
+			</div>
+		</td>
+	</tr>
+</script>
+
+<script type="text/x-jsrender" id="tmplTabelleImmobili">
+	<p class="section-title">ELENCO UNITÀ IMMOBILIARI URBANE</p>
+	<table class="table table-bordered table-condensed table-striped">
+		<thead>
+			<tr>
+				<th style="width:68px;"></th>
+				<th>Foglio</th>
+				<th>Numero</th>
+				<th>Den.</th>
+				<th>Sub</th>
+				<th>Categoria</th>
+				<th>Classe</th>
+				<th>Rendita</th>
+				<th>Indirizzo</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{for FABBRICATI}}
+			<tr>
+				<td>
+					<button type="button" class="btn btn-primary btn-xs btn-info-catasto" data-terna="{{:codComune}}|{{:foglio}}|{{:numero}}" data-livello="FABBRICATI"><span class="glyphicon glyphicon-info-sign"></span></button>
+					<button type="button" class="btn btn-primary btn-xs btn-zoom-catasto" data-terna="{{:codComune}}|{{:foglio}}|{{:numero}}" data-livello="FABBRICATI"><span class="glyphicon glyphicon-search"></span></button>
+				</td>
+				<td>{{:foglio}}</td>
+				<td>{{:numero}}</td>
+				<td>{{:denominatore}}</td>
+				<td>{{:subalterno}}</td>
+				<td>{{:categoria}}</td>
+				<td>{{:classe}}</td>
+				<td>{{:renditaEuro}}</td>
+				<td>{{:indirizzo}}</td>
+			</tr>
+			{{/for}}
+		</tbody>
+	</table>
+	<p class="section-title">ELENCO PARTICELLE - TERRENI</p>
+	<table class="table table-bordered table-condensed table-striped">
+		<thead>
+			<tr>
+				<th style="width:68px;"></th>
+				<th>Foglio</th>
+				<th>Numero</th>
+				<th>Den.</th>
+				<th>Sub</th>
+				<th>Qualità</th>
+				<th>Redd. Dominicale</th>
+				<th>Redd. Agrario</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			{{for PARTICELLE}}
+			<tr>
+				<td>
+					<button type="button" class="btn btn-primary btn-xs btn-info-catasto" data-terna="{{:codComune}}|{{:foglio}}|{{:numero}}" data-livello="PARTICELLE"><span class="glyphicon glyphicon-info-sign"></span></button>
+					<button type="button" class="btn btn-primary btn-xs btn-zoom-catasto" data-terna="{{:codComune}}|{{:foglio}}|{{:numero}}" data-livello="PARTICELLE"><span class="glyphicon glyphicon-search"></span></button>
+				</td>
+				<td>{{:foglio}}</td>
+				<td>{{:numero}}</td>
+				<td>{{:denominatore}}</td>
+				<td>{{:subalterno}}</td>
+				<td>{{:codQualita}} - {{:qualita}}</td>
+				<td>{{:redditoDomEuro}}</td>
+				<td>{{:redditoAgrEuro}}</td>
+			</tr>
+			{{/for}}
+		</tbody>
+	</table>
+</script>
+

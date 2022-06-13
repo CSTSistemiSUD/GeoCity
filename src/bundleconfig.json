@@ -1,0 +1,364 @@
+[
+  {
+    "outputFileName": "Scripts/accounting.min.js",
+    "inputFiles": [
+      "Scripts/accounting.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap-dialog.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap-dialog.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap-sidebar.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap-sidebar.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap-table-expandable.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap-table-expandable.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap-tabcollapse.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap-tabcollapse.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap3-typeahead.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap3-typeahead.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/daterangepicker.min.js",
+    "inputFiles": [
+      "Scripts/daterangepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.bootstrap-touchspin.min.js",
+    "inputFiles": [
+      "Scripts/jquery.bootstrap-touchspin.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.draggable.min.js",
+    "inputFiles": [
+      "Scripts/jquery.draggable.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.editableTable.min.js",
+    "inputFiles": [
+      "Scripts/jquery.editableTable.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.maskedinput.min.js",
+    "inputFiles": [
+      "Scripts/jquery.maskedinput.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.numeric.min.js",
+    "inputFiles": [
+      "Scripts/jquery.numeric.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.tiny-draggable.min.js",
+    "inputFiles": [
+      "Scripts/jquery.tiny-draggable.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.validate-additional-methods.min.js",
+    "inputFiles": [
+      "Scripts/jquery.validate-additional-methods.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jsvat.min.js",
+    "inputFiles": [
+      "Scripts/jsvat.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/moment-with-locales.min.js",
+    "inputFiles": [
+      "Scripts/moment-with-locales.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/moment.min.js",
+    "inputFiles": [
+      "Scripts/moment.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/utils.min.js",
+    "inputFiles": [
+      "Scripts/utils.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Gestione/js/progetti.min.js",
+    "inputFiles": [
+      "WebForms/Gestione/js/progetti.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Gestione/js/utenti.min.js",
+    "inputFiles": [
+      "WebForms/Gestione/js/utenti.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/css/calcite-bundle.css",
+    "inputFiles": [
+      "WebForms/css/calcite-maps-arcgis-3.x.min-v0.4.css",
+      "WebForms/css/calcite-maps-bootstrap.min-v0.4.css"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/css/viewer-bundle.css",
+    "inputFiles": [
+      "WebForms/Mappa/css/Viewer.css",
+      "WebForms/Mappa/css/Sidebar.css"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/bootstrapmap.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/bootstrapmap.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/calcitemaps.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/calcitemaps.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_ambienti.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_ambienti.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_sensori.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_sensori.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_tracker.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_tracker.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/geocoder.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/geocoder.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/identify.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/identify.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/legend.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/legend.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/print.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/print.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/v_inside.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/v_inside.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/v_outside.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/v_outside.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/viewer.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/viewer.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/proj4js-combined.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/proj4js-combined.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/proj4js-EPSG.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/proj4js-EPSG.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/bootstrap-dialog-calcite.min.css",
+    "inputFiles": [
+      "Content/bootstrap-dialog-calcite.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/bootstrap-dialog.min.css",
+    "inputFiles": [
+      "Content/bootstrap-dialog.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/bootstrap-table-expandable.min.css",
+    "inputFiles": [
+      "Content/bootstrap-table-expandable.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/bootstrap.min.css",
+    "inputFiles": [
+      "Content/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/daterangepicker.min.css",
+    "inputFiles": [
+      "Content/daterangepicker.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/landing-page.min.css",
+    "inputFiles": [
+      "Content/landing-page.css"
+    ]
+  },
+  {
+    "outputFileName": "Account/css/account.min.css",
+    "inputFiles": [
+      "Account/css/account.css"
+    ]
+  },
+  {
+    "outputFileName": "Account/css/gsdk-bootstrap-wizard.min.css",
+    "inputFiles": [
+      "Account/css/gsdk-bootstrap-wizard.css"
+    ]
+  },
+  {
+    "outputFileName": "Account/js/ChangePassword.min.js",
+    "inputFiles": [
+      "Account/js/ChangePassword.js"
+    ]
+  },
+  {
+    "outputFileName": "Account/js/gsdk-bootstrap-wizard.min.js",
+    "inputFiles": [
+      "Account/js/gsdk-bootstrap-wizard.js"
+    ]
+  },
+  {
+    "outputFileName": "Account/js/jquery.bootstrap.wizard.min.js",
+    "inputFiles": [
+      "Account/js/jquery.bootstrap.wizard.js"
+    ]
+  },
+  {
+    "outputFileName": "Account/js/ProfileManager.min.js",
+    "inputFiles": [
+      "Account/js/ProfileManager.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/Plugin/validInputChecker.min.js",
+    "inputFiles": [
+      "Scripts/Plugin/validInputChecker.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/modernizr-2.8.3.min.js",
+    "inputFiles": [
+      "Scripts/modernizr-2.8.3.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/daterangepicker_it.min.js",
+    "inputFiles": [
+      "Scripts/daterangepicker_it.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_stalli.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_stalli.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_nodi.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_nodi.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/export.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/export.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_vincoli.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_vincoli.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_base.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_base.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/fc_catasto.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/fc_catasto.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/sued.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/sued.js"
+    ]
+  },
+  {
+    "outputFileName": "Account/js/Register.min.js",
+    "inputFiles": [
+      "Account/js/Register.js"
+    ]
+  },
+  {
+    "outputFileName": "WebForms/Mappa/js/dojo/viewern.min.js",
+    "inputFiles": [
+      "WebForms/Mappa/js/dojo/viewern.js"
+    ]
+  }
+]
