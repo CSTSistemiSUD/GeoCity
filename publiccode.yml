@@ -30,6 +30,8 @@ intendedAudience:
     - infrastructures
     - security
 it:
+  riuso:
+    codiceIPA:
   conforme:
     gdpr: true
     lineeGuidaDesign: true
