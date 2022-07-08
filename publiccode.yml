@@ -14,7 +14,13 @@ usedBy:
 description:
   it:
     features:
-        Catastali cartografici e alfanumerici, analisi dei vincoli di una  particella, stampe pdf
+      - Catastali cartografici e alfanumerici, analisi dei vincoli di una  particella, stampe pdf
+      - PNRR
+      - PNRR/Misura/1.4.1
+      - PNRR/Misura/1.6
+      - PNRR/Beneficiari/Comuni
+      - PNRR/Beneficiari/Altri enti
+      - PNRR/Beneficiari/ASL
     genericName: GeoCity
     localisedName: GeoCity
     longDescription: Piattaforma Cartografica HUB unificata per la gestione del territorio    
