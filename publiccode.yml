@@ -3,18 +3,23 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
+applicationSuite: GeoCity
 categories:
-  - geographic-information-systems
-  - data-analytics
-  - digital-citizenship
   - digital-asset-management
-usedBy:
-  - Comune di Capaccio
-  - CST Sistemi Sud S.r.l.
+  - facility-management
+  - geographic-information-systems
+  - inventory-management
+  - it-asset-management
+  - it-security
+  - resource-management
+  - survey
+  - warehouse-management
 description:
   it:
     features:
-      - Catastali cartografici e alfanumerici, analisi dei vincoli di una  particella, stampe pdf
+      - |-
+        Catastali cartografici e alfanumerici, analisi dei vincoli di una 
+        particella, stampe pdf
       - PNRR
       - PNRR/Misura/1.4.1
       - PNRR/Misura/1.6
@@ -23,9 +28,27 @@ description:
       - PNRR/Beneficiari/ASL
     genericName: GeoCity
     localisedName: GeoCity
-    longDescription: Piattaforma Cartografica HUB unificata per la gestione del territorio    
-      - Nello specifico la piattaforma permette la navigazione cartografica di tutti gli elementi che l'Amministrazione
-        vorrà rappresentare ed integrare connessi ai diversi iter amministrativi dell'Ente
+    longDescription: |
+      Piattaforma Cartografica HUB unificata per la gestione del territorio    
+
+            - Nello specifico la piattaforma permette la navigazione cartografica di tutti gli elementi che l'Amministrazione
+
+              vorrà rappresentare ed integrare connessi ai diversi iter amministrativi dell'Ente
+
+      - Catastali cartografici e alfanumerici, analisi dei vincoli di una 
+      particella, stampe pdf
+
+            - PNRR
+
+            - PNRR/Misura/1.4.1
+
+            - PNRR/Misura/1.6
+
+            - PNRR/Beneficiari/Comuni
+
+            - PNRR/Beneficiari/Altri enti
+
+            - PNRR/Beneficiari/ASL
     shortDescription: Piattaforma Cartografica HUB unificata per la gestione del territorio
 developmentStatus: stable
 intendedAudience:
@@ -35,9 +58,8 @@ intendedAudience:
     - government
     - infrastructures
     - security
+    - environment
 it:
-  riuso:
-    codiceIPA:
   conforme:
     gdpr: true
     lineeGuidaDesign: true
@@ -58,13 +80,16 @@ localisation:
     - it
   localisationReady: true
 maintenance:
-  Contractors:
+  contractors:
     - name: GeoSafety S.r.l.
+      until: '2022-08-01'
   type: contract
 name: GeoCity
 platforms:
-  - windows
+  - web
 releaseDate: '2020-02-01'
-softwareType: web
-softwareVersion: 1.0.0
+softwareType: standalone/web
 url: 'https://github.com/CSTSistemiSUD/GeoCity'
+usedBy:
+  - Comune di Capaccio
+  - CST Sistemi Sud S.r.l.
