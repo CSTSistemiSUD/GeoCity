@@ -71,6 +71,8 @@ it:
     cie: false
     pagopa: false
     spid: false
+  riuso:
+    codiceIPA: data
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: CST Sistemi Sud S.r.l.
