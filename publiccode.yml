@@ -81,6 +81,7 @@ localisation:
   availableLanguages:
     - it
   localisationReady: true
+logo: https://github.com/CSTSistemiSUD/GeoCity/blob/main/logo.png
 maintenance:
   contractors:
     - name: GeoSafety S.r.l.
