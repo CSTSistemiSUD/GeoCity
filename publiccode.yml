@@ -72,7 +72,7 @@ it:
     pagopa: false
     spid: false
   riuso:
-    codiceIPA: 6cscg00q
+    codiceIPA: lv2mqy
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: CST Sistemi Sud S.r.l.
@@ -81,6 +81,11 @@ localisation:
   availableLanguages:
     - it
   localisationReady: true
+dependsOn: 
+    - name: ESRI ArcgisServer Enterprise
+      optional: no
+    - name: Microsoft SqlServer Express
+      optional: no
 logo: https://github.com/CSTSistemiSUD/GeoCity/blob/main/logo.png
 maintenance:
   contractors:
