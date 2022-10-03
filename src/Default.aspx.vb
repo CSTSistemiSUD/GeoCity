@@ -57,8 +57,8 @@
 			.Ambiente = "SUED"
 			.Funzione = "ANALIZZA_VINCOLI"
 			.DatiCatastali.Add(New IdCatastali With {.CodiceComune = "B644", .Foglio = "1", .Particella = "108"})
-			.UserName = "Admin"
-			.UserPwd = "Adm@Piter$01"
+			.UserName = ""
+			.UserPwd = ""
 		End With
 		Dim serializer As New Script.Serialization.JavaScriptSerializer
 		Dim plainText As String = serializer.Serialize(params)
