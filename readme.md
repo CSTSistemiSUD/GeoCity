@@ -46,3 +46,10 @@ https://desktop.arcgis.com/en/arcmap/latest/get-started/installation-guide/insta
 * Soggetto incaricato del mantenimento del software : GeoSafety S.r.l.
 
 * Indirizzo mail per le segnalazioni di sicurezza: info@geosafety.it
+
+Librerie di terze parti per le quali è prevista la licenza MIT
+* jQuery
+* Bootstrap
+
+
+
