@@ -77,7 +77,7 @@ description:
       periferica con le opportune credenziali che abilitano il livello di
       operatività. La condivisione del medesimo data base consentirà di far
       “affiorare” l’interfaccia di gestione plano/cartografica nelle diverse
-      procedure di gestione e dei diversi workflow; la planimetria dell’azienda,
+      procedure di gestione e dei diversi workflow; la planimetria dell’Ente,
       la particella catastale, il segmento di strada consortile sono fonte di
       informazioni amministrative gestionali ed aggregatori di progetti,
       pratiche amministrative, interconnessioni con altri enti per rendere
@@ -161,6 +161,11 @@ localisation:
   availableLanguages:
     - it
   localisationReady: true
+dependsOn: 
+    - name: ESRI ArcgisServer Enterprise
+      optional: no
+    - name: Microsoft SqlServer Express
+      optional: no  
 logo: 'https://raw.githubusercontent.com/CSTSistemiSUD/GeoCity/master/logo.png'
 maintenance:
   contractors:
