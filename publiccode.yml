@@ -127,28 +127,87 @@ description:
       ricerca, consente di selezionare (ON/Off) tutti i livelli VINCOLI presenti
       nella banca dati cartografica e relazionarli alle diverse informazioni di
       BASE per una completa ed immediata leggibilità delle informazioni.
-      L'architettura funzionale di GeoCity, consente l'utilizzo per la 
-      realizzazione del sito istituzionale corredato dalle funzionalità di 
-      portale e conforme con le misura 1.4.1 "Esperienza del Cittadino nei servizi 
-      pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD di cui al 
-      seguente link https:/designers.italia.it/.
-      
-      I servizi di portale offerti da GeoCity sono: 
 
-      1 Urbanistica ed edilizia		Richiedere permesso di parcheggio	Servizio relativo al rilascio di un’autorizzazione per posteggiare nelle aree di Parcheggio pubblico a pagamento
-      2 Servizi socio-assistenziali e sanitari Sociale – assistenza scolastica	Richiedere agevolazioni scolastiche	Servizio per la fruizione di agevolazioni in ambito scolastico
-      3 Servizi socio-assistenziali e sanitari Sociale – edilizia Richiedere assegnazione alloggio Servizio per richiedere l'assegnazione di alloggi
-      4 Servizi socio-assistenziali e sanitari Sociale - sostegno economico Presentare domanda per bonus economici Sovvenzioni erogate per consentire il risparmio sulla spesa per specifici servizi e/o beni
-      5 Servizi socio-assistenziali e sanitari Sociale - sostegno economico Presentare domanda per un contributo Servizio per la richiesta di sostegno nell'affrontare le spese relative all'assistenza per un
-      6 Servizi socio-assistenziali e sanitari Sociale - agevolazioni tributarie Presentare domanda di agevolazione tributaria Procedimento diretto al riconoscimento delle detrazioni d'imposta spettanti al cittadino, per la fruizione di agevolazioni e/o esenzioni tributarie o tariffarie
-      7 Polizia municipale Traffico Richiedere permesso di accesso area ZTL Servizio di richiesta di Autorizzazioni in deroga a divieti di circolazione	
-      8Polizia municipale Autorizzazioni Richiedere permesso per parcheggio invalidi Servizio di autorizzazione a fruire dei Parcheggi per gli invalidi tramite rilascio di contrassegno in favore dei soggetti diversamente abili, in materia di circolazione stradale
-      9 Polizia municipale Autorizzazioni Richiedere permesso per passo carrabile Servizio di richiesta di autorizzazione a imporre il divieto di Parcheggio presso l'ingresso della propria abitazione
-      10 Istruzione, formazione e sport Servizi scolastici 	Richiedere iscrizione al trasporto scolastico Servizio per la fruizione del trasporto scolastico
-      11 Istruzione, formazione e sport Servizi scolastici	Richiedere iscrizione alla mensa scolastica Servizio per la fruizione delle mense scolastiche
-      12 Istruzione, formazione e sport Formazione Richiedere iscrizione a corsi di formazione Servizio per fruire di corsi di Formazione gestiti a livello comunale
-      13 Istruzione, formazione e sport Asili nido Richiedere iscrizione alla scuola dell’infanzia Servizio per fruire di strutture per l'infanzia gestite a livello comunale
-      14 Istruzione, formazione e sport Asili nido Richiedere iscrizione all’asilo nido Servizio per richiedere l’ammissione alla frequenza dell’asilo nido comunale, per i bambini di età compresa da 0 a 3 anni
+       L'architettura funzionale di GeoCity, consente l'utilizzo per la 
+
+      ​
+
+            realizzazione del sito istituzionale corredato dalle funzionalità di 
+
+      ​
+
+            portale e conforme con le misura 1.4.1 "Esperienza del Cittadino nei servizi 
+
+      ​
+
+            pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD di cui al 
+
+      ​
+
+            seguente link https:/designers.italia.it/.
+
+      ​
+
+            I servizi di portale offerti da GeoCity sono: 
+
+      ​
+
+
+      ​
+
+            1 Urbanistica ed edilizia		Richiedere permesso di parcheggio	Servizio relativo al rilascio di un’autorizzazione per posteggiare nelle aree di Parcheggio pubblico a pagamento
+
+      ​
+
+            2 Servizi socio-assistenziali e sanitari Sociale – assistenza scolastica	Richiedere agevolazioni scolastiche	Servizio per la fruizione di agevolazioni in ambito scolastico
+
+      ​
+
+            3 Servizi socio-assistenziali e sanitari Sociale – edilizia Richiedere assegnazione alloggio Servizio per richiedere l'assegnazione di alloggi
+
+      ​
+
+            4 Servizi socio-assistenziali e sanitari Sociale - sostegno economico Presentare domanda per bonus economici Sovvenzioni erogate per consentire il risparmio sulla spesa per specifici servizi e/o beni
+
+      ​
+
+            5 Servizi socio-assistenziali e sanitari Sociale - sostegno economico Presentare domanda per un contributo Servizio per la richiesta di sostegno nell'affrontare le spese relative all'assistenza per un
+
+      ​
+
+            6 Servizi socio-assistenziali e sanitari Sociale - agevolazioni tributarie Presentare domanda di agevolazione tributaria Procedimento diretto al riconoscimento delle detrazioni d'imposta spettanti al cittadino, per la fruizione di agevolazioni e/o esenzioni tributarie o tariffarie
+
+      ​
+
+            7 Polizia municipale Traffico Richiedere permesso di accesso area ZTL Servizio di richiesta di Autorizzazioni in deroga a divieti di circolazione	
+
+      ​
+
+            8 Polizia municipale Autorizzazioni Richiedere permesso per parcheggio invalidi Servizio di autorizzazione a fruire dei Parcheggi per gli invalidi tramite rilascio di contrassegno in favore dei soggetti diversamente abili, in materia di circolazione stradale
+
+      ​
+
+            9 Polizia municipale Autorizzazioni Richiedere permesso per passo carrabile Servizio di richiesta di autorizzazione a imporre il divieto di Parcheggio presso l'ingresso della propria abitazione
+
+      ​
+
+            10 Istruzione, formazione e sport Servizi scolastici 	Richiedere iscrizione al trasporto scolastico Servizio per la fruizione del trasporto scolastico
+
+      ​
+
+            11 Istruzione, formazione e sport Servizi scolastici	Richiedere iscrizione alla mensa scolastica Servizio per la fruizione delle mense scolastiche
+
+      ​
+
+            12 Istruzione, formazione e sport Formazione Richiedere iscrizione a corsi di formazione Servizio per fruire di corsi di Formazione gestiti a livello comunale
+
+      ​
+
+            13 Istruzione, formazione e sport Asili nido Richiedere iscrizione alla scuola dell’infanzia Servizio per fruire di strutture per l'infanzia gestite a livello comunale
+
+      ​
+
+            14 Istruzione, formazione e sport Asili nido Richiedere iscrizione all’asilo nido Servizio per richiedere l’ammissione alla frequenza dell’asilo nido comunale, per i bambini di età compresa da 0 a 3 anni
     shortDescription: |-
       Piattaforma Cartografica HUB unificata per la gestione del territorio e
       inside
