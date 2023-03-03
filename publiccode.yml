@@ -17,7 +17,10 @@ categories:
 description:
   it:
     features:
-      - Catastali cartografici e alfanumerici, analisi dei vincoli di una particella, stampe pdf
+      - |-
+        Catastali cartografici e alfanumerici, analisi dei vincoli di una
+
+        particella, stampe pdf
       - PNRR/Misura/1.4.1
       - PNRR/Misura/1.4.2
       - PNRR/Misura/1.4.3
@@ -30,7 +33,11 @@ description:
     genericName: GeoCity
     localisedName: GeoCity
     longDescription: |
-      ## **Piattaforma Cartografica HUB unificata per la gestione del territorio e inside**
+      ## \*\*Sito web e piattaforma Cartografica unificata per la gestione del
+      territorio
+
+
+      e inside\*\*
 
 
       GeoCity è una web application sviluppata con tecnologia ESRI in ambiente
@@ -77,7 +84,7 @@ description:
       periferica con le opportune credenziali che abilitano il livello di
       operatività. La condivisione del medesimo data base consentirà di far
       “affiorare” l’interfaccia di gestione plano/cartografica nelle diverse
-      procedure di gestione e dei diversi workflow; la planimetria dell’Ente,
+      procedure di gestione e dei diversi workflow; la planimetria dell’azienda,
       la particella catastale, il segmento di strada consortile sono fonte di
       informazioni amministrative gestionali ed aggregatori di progetti,
       pratiche amministrative, interconnessioni con altri enti per rendere
@@ -106,7 +113,7 @@ description:
       gestione della funzionalità, integrata in piattaforma, che consente di
       gestire ed aggiornare i fogli catastali e le informazioni censuarie,
       provenienti dall’Agenzia del Territorio importandoli all’interno del DB di
-      GeoCity. La gestione integrata delle informazioni del Catasto accelera ed
+      PITer. La gestione integrata delle informazioni del Catasto accelera ed
       integra la ricerca e la visualizzazione di particelle e delle relative
       informazioni tracciate all’interno delle diverse procedure dell’Ente
 
@@ -128,88 +135,91 @@ description:
       nella banca dati cartografica e relazionarli alle diverse informazioni di
       BASE per una completa ed immediata leggibilità delle informazioni.
 
-       L'architettura funzionale di GeoCity, consente l'utilizzo per la 
+
+      L'architettura funzionale di GeoCity, consente l'utilizzo per la
+      realizzazione del sito istituzionale corredato dalle funzionalità di
+      portale e conforme con le misura 1.4.1 "Esperienza del Cittadino nei
+      servizi pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD
+      di cui al seguente link https:/designers.italia.it/.  I servizi di portale
+      offerti da GeoCity sono: 
+
+       1 Urbanistica ed edilizia Richiedere permesso di parcheggio Servizio relativo al rilascio di un’autorizzazione per posteggiare nelle aree di Parcheggio pubblico a pagamento
+
+      2 Servizi socio-assistenziali e sanitari Sociale – assistenza scolastica
+      Richiedere agevolazioni scolastiche	Servizio per la fruizione di
+      agevolazioni in ambito scolastico 
+
+
+      3 Servizi socio-assistenziali e sanitari Sociale – edilizia Richiedere
+      assegnazione alloggio Servizio per richiedere l'assegnazione di alloggi
+
+
+      4 Servizi socio-assistenziali e sanitari Sociale - sostegno economico
+      Presentare domanda per bonus economici  Sovvenzioni erogate per consentire
+      il risparmio sulla spesa per specifici servizi e/o beni
+
+
+      5 Servizi socio-assistenziali e sanitari Sociale - sostegno economico
+      Presentare domanda per un contributo Servizio per la richiesta di sostegno
+      nell'affrontare le spese relative all'assistenza
+
+
+      6 Servizi socio-assistenziali e sanitari Sociale - agevolazioni tributarie
+      Presentare domanda di agevolazione tributaria Procedimento diretto al
+      riconoscimento delle detrazioni d'imposta spettanti al cittadino, per la
+      fruizione di agevolazioni e/o esenzioni tributarie o tariffarie
+
+
+      7 Polizia municipale Traffico Richiedere permesso di accesso area ZTL
+      Servizio di richiesta di Autorizzazioni in deroga a divieti di
+      circolazione
+
+
+      8 Polizia municipale Autorizzazioni Richiedere permesso per parcheggio
+      invalidi Servizio di autorizzazione a fruire dei Parcheggi per gli
+      invalidi tramite rilascio di contrassegno in favore dei soggetti
+      diversamente abili, in materia di circolazione stradale
+
+
+      9 Polizia municipale Autorizzazioni Richiedere permesso per passo
+      carrabile Servizio di richiesta di autorizzazione a imporre il divieto di
+      Parcheggio presso l'ingresso della propria abitazione
+
+
+      10 Istruzione, formazione e sport Servizi scolastici	Richiedere iscrizione
+      al trasporto scolastico Servizio per la fruizione del trasporto scolastico
+
+
+      11 Istruzione, formazione e sport Servizi scolastici	Richiedere iscrizione
+      alla mensa scolastica Servizio per la fruizione delle mense scolastiche
+
+
+      12 Istruzione, formazione e sport Formazione Richiedere iscrizione a corsi
+      di formazione Servizio per fruire di corsi di Formazione gestiti a livello
+      comunale
+
+
+      13 Istruzione, formazione e sport Asili nido Richiedere iscrizione alla
+      scuola dell’infanzia Servizio per fruire di strutture per l'infanzia
+      gestite a livello comunale
+
+
+      14 Istruzione, formazione e sport Asili nido Richiedere iscrizione
+      all’asilo nido Servizio per richiedere l’ammissione alla frequenza
+      dell’asilo nido comunale, per i bambini di età compresa da 0 a 3 anni 
+
 
       ​
 
-            realizzazione del sito istituzionale corredato dalle funzionalità di 
-
-      ​
-
-            portale e conforme con le misura 1.4.1 "Esperienza del Cittadino nei servizi 
-
-      ​
-
-            pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD di cui al 
-
-      ​
-
-            seguente link https:/designers.italia.it/.
-
-      ​
-
-            I servizi di portale offerti da GeoCity sono: 
 
       ​
 
 
       ​
-
-            1 Urbanistica ed edilizia		Richiedere permesso di parcheggio	Servizio relativo al rilascio di un’autorizzazione per posteggiare nelle aree di Parcheggio pubblico a pagamento
-
-      ​
-
-            2 Servizi socio-assistenziali e sanitari Sociale – assistenza scolastica	Richiedere agevolazioni scolastiche	Servizio per la fruizione di agevolazioni in ambito scolastico
-
-      ​
-
-            3 Servizi socio-assistenziali e sanitari Sociale – edilizia Richiedere assegnazione alloggio Servizio per richiedere l'assegnazione di alloggi
-
-      ​
-
-            4 Servizi socio-assistenziali e sanitari Sociale - sostegno economico Presentare domanda per bonus economici Sovvenzioni erogate per consentire il risparmio sulla spesa per specifici servizi e/o beni
-
-      ​
-
-            5 Servizi socio-assistenziali e sanitari Sociale - sostegno economico Presentare domanda per un contributo Servizio per la richiesta di sostegno nell'affrontare le spese relative all'assistenza per un
-
-      ​
-
-            6 Servizi socio-assistenziali e sanitari Sociale - agevolazioni tributarie Presentare domanda di agevolazione tributaria Procedimento diretto al riconoscimento delle detrazioni d'imposta spettanti al cittadino, per la fruizione di agevolazioni e/o esenzioni tributarie o tariffarie
-
-      ​
-
-            7 Polizia municipale Traffico Richiedere permesso di accesso area ZTL Servizio di richiesta di Autorizzazioni in deroga a divieti di circolazione	
-
-      ​
-
-            8 Polizia municipale Autorizzazioni Richiedere permesso per parcheggio invalidi Servizio di autorizzazione a fruire dei Parcheggi per gli invalidi tramite rilascio di contrassegno in favore dei soggetti diversamente abili, in materia di circolazione stradale
-
-      ​
-
-            9 Polizia municipale Autorizzazioni Richiedere permesso per passo carrabile Servizio di richiesta di autorizzazione a imporre il divieto di Parcheggio presso l'ingresso della propria abitazione
-
-      ​
-
-            10 Istruzione, formazione e sport Servizi scolastici 	Richiedere iscrizione al trasporto scolastico Servizio per la fruizione del trasporto scolastico
-
-      ​
-
-            11 Istruzione, formazione e sport Servizi scolastici	Richiedere iscrizione alla mensa scolastica Servizio per la fruizione delle mense scolastiche
-
-      ​
-
-            12 Istruzione, formazione e sport Formazione Richiedere iscrizione a corsi di formazione Servizio per fruire di corsi di Formazione gestiti a livello comunale
-
-      ​
-
-            13 Istruzione, formazione e sport Asili nido Richiedere iscrizione alla scuola dell’infanzia Servizio per fruire di strutture per l'infanzia gestite a livello comunale
-
-      ​
-
-            14 Istruzione, formazione e sport Asili nido Richiedere iscrizione all’asilo nido Servizio per richiedere l’ammissione alla frequenza dell’asilo nido comunale, per i bambini di età compresa da 0 a 3 anni
     shortDescription: |-
       Piattaforma Cartografica HUB unificata per la gestione del territorio e
+
+
       inside
 developmentStatus: stable
 intendedAudience:
@@ -233,7 +243,7 @@ it:
     pagopa: false
     spid: false
   riuso:
-    codiceIPA: 6cscg00q
+    codiceIPA: c_b644
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: CST Sistemi Sud S.r.l.
@@ -242,11 +252,6 @@ localisation:
   availableLanguages:
     - it
   localisationReady: true
-dependsOn: 
-    - name: ESRI ArcgisServer Enterprise
-      optional: no
-    - name: Microsoft SqlServer Express
-      optional: no  
 logo: 'https://raw.githubusercontent.com/CSTSistemiSUD/GeoCity/master/logo.png'
 maintenance:
   contractors:
