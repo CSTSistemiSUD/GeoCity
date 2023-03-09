@@ -136,11 +136,8 @@ description:
       servizi pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD
       di cui al seguente link https:/designers.italia.it/.
       
-    shortDescription: |-
-      Piattaforma Cartografica HUB unificata per la gestione del territorio e
-
-
-      inside
+    shortDescription: |
+      Sito web e piattaforma Cartografica unificata per la gestione del territorio
 developmentStatus: stable
 intendedAudience:
   countries:
