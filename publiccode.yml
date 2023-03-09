@@ -17,10 +17,7 @@ categories:
 description:
   it:
     features:
-      - |-
-        Catastali cartografici e alfanumerici, analisi dei vincoli di una
-
-        particella, stampe pdf
+      - Catastali cartografici e alfanumerici, analisi dei vincoli di una particella, stampe pdf
       - PNRR/Misura/1.4.1
       - PNRR/Misura/1.4.2
       - PNRR/Misura/1.4.3
@@ -33,11 +30,8 @@ description:
     genericName: GeoCity
     localisedName: GeoCity
     longDescription: |
-      ## \*\*Sito web e piattaforma Cartografica unificata per la gestione del
-      territorio
-
-
-      e inside\*\*
+      ## **Sito web e piattaforma Cartografica unificata per la gestione del
+      territorio e inside**
 
 
       GeoCity è una web application sviluppata con tecnologia ESRI in ambiente
@@ -113,7 +107,7 @@ description:
       gestione della funzionalità, integrata in piattaforma, che consente di
       gestire ed aggiornare i fogli catastali e le informazioni censuarie,
       provenienti dall’Agenzia del Territorio importandoli all’interno del DB di
-      PITer. La gestione integrata delle informazioni del Catasto accelera ed
+      GeoCity. La gestione integrata delle informazioni del Catasto accelera ed
       integra la ricerca e la visualizzazione di particelle e delle relative
       informazioni tracciate all’interno delle diverse procedure dell’Ente
 
