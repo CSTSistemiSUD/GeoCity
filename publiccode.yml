@@ -128,15 +128,12 @@ description:
       ricerca, consente di selezionare (ON/Off) tutti i livelli VINCOLI presenti
       nella banca dati cartografica e relazionarli alle diverse informazioni di
       BASE per una completa ed immediata leggibilità delle informazioni.
-
-
       L'architettura funzionale di GeoCity, consente l'utilizzo per la
       realizzazione del sito istituzionale corredato dalle funzionalità di
       portale e conforme con le misura 1.4.1 "Esperienza del Cittadino nei
       servizi pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD
       di cui al seguente link https:/designers.italia.it/.
-      
-    shortDescription: |
+    shortDescription: |-
       Sito web e piattaforma Cartografica unificata per la gestione del territorio
 developmentStatus: stable
 intendedAudience:
@@ -158,7 +155,7 @@ it:
     anpr: false
     cie: false
     pagopa: false
-    spid: false
+    spid: true
   riuso:
     codiceIPA: 6cscg00q
 legal:
