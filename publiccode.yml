@@ -30,17 +30,27 @@ description:
     genericName: GeoCity
     localisedName: GeoCity
     longDescription: |
-      ## **Sito web e piattaforma Cartografica unificata per la gestione del
-      territorio e inside**
+      ## **Sito istituzionale e piattaforma Cartografica unificata per la gestione del territorio e inside**
 
 
-      GeoCity è una web application sviluppata con tecnologia ESRI in ambiente
+      GeoCity è una web application nativa Cloud sviluppata con tecnologia ESRI in ambiente
       ArcGIS Server per Windows Server (Microsoft), per l’elaborazione di
       informazioni plano/cartografiche residenti in un unico DB SQL.
-      L’istallazione di GeoCity è versatile e si adatta alle esigenze del
-      cliente, garantendo sempre i massimi livelli di sicurezza ed affidabilità.
-      L’istallazione “tipo” è in Cloud. Sono configurati due server dedicati
-      alle funzioni di Application Server e DB Server.
+      L’installazione di GeoCity è versatile e si adatta alle esigenze del
+      cliente, garantendo sempre i massimi livelli di sicurezza ed affidabilità,
+      utilizzando un'architettura multi-tier. Sono configurati server dedicati
+      alle funzioni di Presentation, Application e Database.
+      
+      La Piattaforma GeoCity è composta dai seguenti moduli:
+        - Urbanistica
+        - Civici e toponomastica
+        - Anagrafe edilizia
+        - Verde pubblico
+        - Cartellonistica pubblicitaria
+        - CTRLGest MPF (Monitoraggio Progetti e Finanziamenti)
+        - Protezione civile
+        - Reti e sottoservizi
+        - Portale del cittadino (Misura 1.4.1 PNRR)
 
 
       ### **Base Dati**
@@ -118,23 +128,25 @@ description:
       Gli utenti sono abilitati dal/dagli Amministratori e in ambiente
       cartografico, utilizzano le funzionalità di navigazione e di contesto per
       consentire una fluida fruizione dei dati con un’attenzione alla
-      navigazione da postazione fissa e mobile c. Zoom e PAN; d. Legenda
-      contestuale (i livelli informativi si popolano a secondo delle selezioni e
-      dello zoom); e. Differenti cartografie di BASE, monocromatica,
-      OpenStreetMap®, fotografica, per una semplice contestualizzazione delle
-      informazioni gestite; f. Funzione di ricerca su informazioni alfanumeriche
-      con zoom ed evidenza g. Funzione per la ricerca dei dati censuari nei dati
-      dell’Agenzia del Territorio h. L’attivazione di die specifiche aree di
-      ricerca, consente di selezionare (ON/Off) tutti i livelli VINCOLI presenti
-      nella banca dati cartografica e relazionarli alle diverse informazioni di
-      BASE per una completa ed immediata leggibilità delle informazioni.
+      navigazione da postazione fissa e mobile 
+        - Zoom e PAN 
+        - Legenda contestuale (i livelli informativi si popolano a secondo delle selezioni e
+          dello zoom)
+        - Differenti cartografie di BASE, monocromatica, OpenStreetMap®, fotografica, 
+        per una semplice contestualizzazione delle informazioni gestite
+        - Funzione di ricerca su informazioni alfanumeriche con zoom ed evidenza 
+        - Funzione per la ricerca dei dati censuari nei dati dell’Agenzia del Territorio 
+        - L’attivazione di specifiche aree di ricerca, consente di selezionare
+          (ON/Off) tutti i livelli VINCOLI presenti nella banca dati cartografica e 
+          relazionarli alle diverse informazioni di BASE per una completa ed 
+          immediata leggibilità delle informazioni.
       L'architettura funzionale di GeoCity, consente l'utilizzo per la
       realizzazione del sito istituzionale corredato dalle funzionalità di
       portale e conforme con le misura 1.4.1 "Esperienza del Cittadino nei
       servizi pubblici". Il sito verrà redatto rispetto alle norme tecniche AgiD
-      di cui al seguente link https:/designers.italia.it/.
+      di cui al seguente link https:/designers.italia.it/.      
     shortDescription: |-
-      Sito web e piattaforma Cartografica unificata per la gestione del territorio
+      Sito istituzionale e piattaforma Cartografica unificata per la gestione del territorio e inside
 developmentStatus: stable
 intendedAudience:
   countries:
