@@ -18,15 +18,15 @@ description:
   it:
     features:
       - Catastali cartografici e alfanumerici, analisi dei vincoli di una particella, stampe pdf
-      - PNRR/Misura/1.4.1
-      - PNRR/Misura/1.4.2
-      - PNRR/Misura/1.4.3
-      - PNRR/Misura/1.4.4
-      - PNRR/Misura/1.4.5
-      - PNRR/Misura/1.6
-      - PNRR/Beneficiari/Comuni
-      - PNRR/Beneficiari/Altri enti
-      - PNRR/Beneficiari/ASL
+      - Urbanistica
+      - Civici e toponomastica
+      - Anagrafe edilizia
+      - Verde pubblico
+      - Cartellonistica pubblicitaria
+      - CTRLGest MPF (Monitoraggio Progetti e Finanziamenti)
+      - Protezione civile
+      - Reti e sottoservizi
+      - Portale del cittadino (Misura 1.4.1 PNRR)
     genericName: GeoCity
     localisedName: GeoCity
     longDescription: |
