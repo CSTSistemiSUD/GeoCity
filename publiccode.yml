@@ -232,7 +232,7 @@ logo: 'https://raw.githubusercontent.com/CSTSistemiSUD/GeoCity/master/logo.png'
 maintenance:
   contractors:
     - name: GeoSafety S.r.l.
-      until: '2022-08-01'
+      until: '2030-08-01'
   type: contract
 name: GeoCity
 platforms:
