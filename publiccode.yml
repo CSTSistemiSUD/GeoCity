@@ -14,226 +14,8 @@ categories:
   - resource-management
   - survey
   - warehouse-management
-description:
-  it:
-    features:
-      - |-
-        Catastali cartografici e alfanumerici, analisi dei vincoli di una
-
-
-        particella, stampe pdf
-      - PNRR/Misura/1.4.1
-      - PNRR/Misura/1.4.2
-      - PNRR/Misura/1.4.3
-      - PNRR/Misura/1.4.4
-      - PNRR/Misura/1.4.5
-      - PNRR/Misura/1.6
-      - PNRR/Beneficiari/Comuni
-      - PNRR/Beneficiari/Altri enti
-      - PNRR/Beneficiari/ASL
-    genericName: GeoCity
-    localisedName: GeoCity
-    longDescription: |2
-        
-
-      Le aree funzionali della piattaforma applicativa sono: 
-
-
-      1. Gestione del Territorio con il supporto di un GIS 
-
-
-      2. Gestione Verde Pubblico 
-
-
-      3. Gestione Asset Manutentivi 
-
-
-      4. Gestione Rete servizi idrici/Rete distribuzione gas 
-
-
-      5. Gestione Tracking oggetti all’interno di un poligono/area 
-
-
-      6. Gestione Tracciabilità scaffali e libri all’interno delle
-      strutture/biblioteche 
-
-
-      7. Gestione Sito/Portale istituzionale conforme con le regole tecniche
-      AgID in conformità con le Linee guida emanate ai sensi del CAD e
-      l’e-government benchmark relativamente agli indicatori della
-      ‘user-centricity’ e della trasparenza, come indicato dall’Egovernment
-      benchmark Method Paper 2020-2023. 
-
-
-      1. **Servizi 1-6** 
-
-
-      La peculiarità di PiTer risiede nell’intrinseca capacità di gestire
-      elementi plano/cartografici come oggetti di un DB SQL integrati con un
-      sistema GIS (Geographic information system). 
-
-
-      Ciò consente di connettere trasversalmente le informazioni presenti nella
-      banca dati, assegnando dinamicamente la collocazione spaziale. 
-
-
-      L’identificazione degli elementi cartografici (edificio, reparto, ufficio,
-      asset o coordinate di un poligono), consente la generazione, la gestione e
-      la tracciabilità dei procedimenti afferenti all’elemento selezionato. 
-
-
-      PiTer è fruibile da dispositivi fissi e mobili (Android e IOS) e l’accesso
-      è governato da ACL (access control list), per l’abilitazione dei livelli
-      di funzionalità attesi. 
-
-
-      La filosofia ERP (Enterprise Resource Planning) della soluzione, consente
-      infine di modellare il processo tramite un workflow che lo associa alla
-      planimetria o area di riferimento. 
-
-
-      **Sito Comunale PiTer** 
-
-
-      Il modello standard del sito comunale PiTer, è stato sviluppato in
-      conformità del “_**progetto Designers Italia**_”, definito dalle linee
-      guida Agid (Agenzia per l’Italia Digitale) e DTD “_**Dipartimento della
-      Trasformazione Digitale**_. 
-
-
-      In tale contesto le funzioni di portale gestiscono 5 tipologie di flussi
-      di servizio ricorrenti riconducibili ai servizi previsti dalla misura
-      1.4.1 del PNRR. 
-
-
-      L’implementazione di tali servizi al cittadino, facilitata dalle tipologie
-      di flussi di interfaccia, consente il raggiungimento _“\_\___**di Linee
-      Guida a livello nazionale**_” e anticipa standard europei. 
-
-
-      Caratteristiche funzionali del servizio 
-
-
-      **Servizi da 1 -6** 
-
-
-      · Modulo vincoli: Analisi dei Vincoli, carotaggio su una particella
-      catastale selezionata per l’analisi dei vincoli sottostanti con produzione
-      di report cartografici in PDF per ogni vincolo intercettato 
-
-
-      · Modulo Suap e Sued: Visualizzazione e interrogazione SUAP e SUED
-      prodotti terze parti 
-
-
-      · Modulo catasto: Importazione dei dati catastali sia cartografici (CXF)
-      che alfanumerici (FAB TIT SOG) dell’Agenzia del territorio direttamente in
-      cartografia con possibilità di aggiornamento continuo (sempre caricando i
-      dati dell’AdT) 
-
-
-      Interrogazione della banca dati catastale per nominativo, codice fiscale
-      etc per la visualizzazione di tutti i dati storici riferiti al soggetto  
-
-
-      · Modulo verde per il censimento e la manutenzione del verde 
-
-
-      · Modulo Protezione civile per la gestione degli eventi di protezione
-      civile con notifiche agli utenti e visualizzazione dei piani di protezione
-      civile (Rischio incendi, rischio idrogeologico etc) 
-
-
-      · Modulo Progetti e finanziamenti per la gestione sul territorio dei
-      progetti e dei finanziamenti del comune con le fasi del progetto i costi e
-      relative info. 
-
-
-      · Modulo Civici e toponomastica per il censimento dei civici e della
-      toponomastica  
-
-
-      · Modulo per la visualizzazione e ricerca tabellare dei livelli abilitati
-      (accessibile tramite l’elenco dei livelli) 
-
-
-      · Modulo di Geocoding indirizzi tramite Server Esri di geocodifica 
-
-
-      · Modulo per la conversione di coordinate su mappa e visualizzazione in
-      diversi formati 
-
-
-      · Modulo Misurazione distanze e area su mappa 
-
-
-      · Modulo GPS per la visualizzazione in tempo reale della posizione 
-
-
-      · Modulo per visualizzare di servizi cartografici di base come
-      Openstreetmap, Esri Topographic, Esri Imagery 
-
-
-      · Modulo di ricerca full text e tramite QRCode sui livelli abilitati 
-
-
-      **Sito Comunale PiTer** 
-
-
-      · Il modello di sito comunale è stato tradotto in una serie di template
-      HTML già pronti all’uso e validati in termini di accessibilità e
-      conformità alle linee guida AgID  
-
-
-      [https://designers.italia.it/modello/comuni/](https://designers.italia.it/modello/comuni/) 
-
-
-      emanate ai sensi del CAD, in cui ogni Comune può inserire i propri
-      contenuti, sia in caso di adesione al Pacchetto cittadino informato, sia
-      in caso di adesione al Pacchetto cittadino attivo. 
-    shortDescription: |-
-      Piattaforma Cartografica HUB unificata per la gestione del territorio e
-
-
-
-      inside
 developmentStatus: stable
-intendedAudience:
-  countries:
-    - it
-  scope:
-    - government
-    - infrastructures
-    - security
-    - environment
-it:
-  conforme:
-    gdpr: true
-    lineeGuidaDesign: true
-    misureMinimeSicurezza: true
-    modelloInteroperabilita: true
-  countryExtensionVersion: '0.2'
-  piattaforme:
-    anpr: false
-    cie: false
-    pagopa: false
-    spid: false
-  riuso:
-    codiceIPA: c_b644
-legal:
-  license: EUPL-1.2
-  mainCopyrightOwner: CST Sistemi Sud S.r.l.
-  repoOwner: CST Sistemi Sud S.r.l.
-localisation:
-  availableLanguages:
-    - it
-  localisationReady: true
 logo: 'https://raw.githubusercontent.com/CSTSistemiSUD/GeoCity/master/logo.png'
-maintenance:
-  contractors:
-    - name: GeoSafety S.r.l.
-      until: '2030-08-01'
-  type: contract
 name: GeoCity
 platforms:
   - web
@@ -246,5 +28,270 @@ usedBy:
   - Consorzio Bonifica in destra del fiume Sele
   - Consorzio di Bonifica di Paestum
   - Comune di Brindisi
-  - Comune di Cellino San Marco 
+  - Comune di Cellino San Marco
   - Comune di Cassano Magnago
+maintenance:
+  contractors:
+    - name: GeoSafety S.r.l.
+      until: '2030-08-01'
+  type: contract
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: CST Sistemi Sud S.r.l.
+  repoOwner: CST Sistemi Sud S.r.l.
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - government
+    - infrastructures
+    - security
+    - environment
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: true
+    pagopa: false
+    spid: true
+  riuso:
+    codiceIPA: 6cscg00q
+description:
+  it:
+    features:
+      - |-
+        Catastali cartografici e alfanumerici, analisi dei vincoli di una
+        particella, stampe pdf
+      - Urbanistica
+      - Civici e toponomastica
+      - Anagrafe edilizia
+      - Verde pubblico
+      - Cartellonistica pubblicitaria
+      - CTRLGest MPF (Monitoraggio Progetti e Finanziamenti)
+      - Protezione civile
+      - Reti e sottoservizi
+      - Portale del cittadino (Misura 1.4.1 PNRR)
+    genericName: GeoCity
+    localisedName: GeoCity
+    longDescription: |
+      ## **Sito istituzionale e piattaforma Cartografica unificata per la
+      gestione del territorio e inside**
+
+
+      GeoCity è una web application nativa Cloud sviluppata con tecnologia ESRI
+      in ambiente ArcGIS Server per Windows Server (Microsoft), per
+      l’elaborazione di informazioni plano/cartografiche residenti in un unico
+      DB SQL. L’installazione di GeoCity è versatile e si adatta alle esigenze
+      del cliente, garantendo sempre i massimi livelli di sicurezza ed
+      affidabilità, utilizzando un'architettura multi-tier. Sono configurati
+      server dedicati alle funzioni di Presentation, Application e Database.
+
+
+      La Piattaforma GeoCity è composta dai seguenti moduli:
+
+
+      - Urbanistica
+
+      - Civici e toponomastica
+
+      - Anagrafe edilizia
+
+      - Verde pubblico
+
+      - Cartellonistica pubblicitaria
+
+      - CTRLGest MPF (Monitoraggio Progetti e Finanziamenti)
+
+      - Protezione civile
+
+      - Reti e sottoservizi
+
+      - Portale del cittadino (Misura 1.4.1 PNRR) 
+
+
+      In fase di allestimento dell’ambiente funzionale, deve essere svolto il
+      censimento dei dati plano/cartografici in possesso del Cliente. Per i dati
+      vettoriali si procederà ad un’attività di bonifica e georeferenziazione;
+      valutazione a parte andrà riservata ad elaborati cartacei di cui si dovrà
+      valutare la validità e l’eventuale vettorializzazione o utilizzo in
+      modalità raster (rappresentazioni storiche). Qualunque informazione
+      cartografica fornita da fonti esterne, sarà “servita” dalla web
+      application GeoCity, garantendo il rispetto delle più stringenti direttive
+      e normative GDPR; nessun dato strategico elaborato dalla piattaforma sarà
+      reso disponibile al di fuori dei server nemmeno per analisi statistiche.
+      Caratteristica strategica del modulo GeoCity risiede nella sua intrinseca
+      capacità, in quanto sviluppato con tecnologia GIS, di gestire elementi
+      plano/cartografici come oggetti di un DB SQL. Questo ci permette di
+      connettere trasversalmente TUTTE le informazioni presenti nella banca dati
+      assegnando ad esse, dinamicamente, il valore aggiunto della collocazione
+      spaziale, quindi dell’edificio, reparto, ufficio, non solo quel dato sarà
+      generato e gestito, ma interrogando il target avremo risposte su tutti i
+      procedimenti legati a quello spazio. GeoCity è accessibile da qualunque
+      periferica con le opportune credenziali che abilitano il livello di
+      operatività. La condivisione del medesimo data base consentirà di far
+      “affiorare” l’interfaccia di gestione plano/cartografica nelle diverse
+      procedure di gestione e dei diversi workflow; la planimetria dell’azienda,
+      la particella catastale, il segmento di strada consortile sono fonte di
+      informazioni amministrative gestionali ed aggregatori di progetti,
+      pratiche amministrative, interconnessioni con altri enti per rendere
+      univoche ed evidenti sovrapposizioni nella gestione dello
+      spazio/territorio. L’accesso al portale cartografico sarà regolato da
+      opportuni profili autorizzativi; la caratterizzazione dei profili consente
+      alle diverse “famiglie” di utenti di accedere, da qualunque periferica (pc
+      fisso e/o tablet e mobile), a diverse informazioni e procedure. Una
+      interfaccia di amministrazione consente di assegnare agli utenti sia la
+      tipologia dei dati che possono interrogare sia le modalità di accesso al
+      dato (lettura/modifica). La funzione Amministratore, assegnata ad una o
+      più utenze, ha la responsabilità di gestire esclusive funzioni a.
+      Abilitazione e profilatura delle utenze, con l’assegnazione di privilegi
+      dedicati; b. Attivazione e gestione della funzionalità, integrata in
+      piattaforma, che consente di gestire ed aggiornare i fogli catastali e le
+      informazioni censuarie, provenienti dall’Agenzia del Territorio
+      importandoli all’interno del DB di GeoCity. La gestione integrata delle
+      informazioni del Catasto accelera ed integra la ricerca e la
+      visualizzazione di particelle e delle relative informazioni tracciate
+      all’interno delle diverse procedure dell’Ente. Gli utenti sono abilitati
+      dal/dagli Amministratori e in ambiente cartografico, utilizzano le
+      funzionalità di navigazione e di contesto per consentire una fluida
+      fruizione dei dati con un’attenzione alla navigazione da postazione fissa
+      e mobile
+
+
+      ### **Sito Comunale GeoCity**
+
+
+      Il modello standard del sito comunale GeoCity, è stato sviluppato in
+      conformità del “_**progetto Designers Italia**_”, definito dalle linee
+      guida Agid (Agenzia per l’Italia Digitale) e DTD “_**Dipartimento della
+      Trasformazione Digitale**_.
+
+
+      In particolare sono state sintetizzate cinque tipologie di flussi di
+      servizio ricorrenti, attraverso servizi per il cittadino per natura molto
+      eterogenei tra loro, cioè pattern ripetibili di moduli e schermate che
+      costituiscono l’interfaccia di fruizione del servizio digitale per il
+      cittadino.
+
+
+      sono stati **definiti **:
+
+
+      una Lista di servizi digitali per il cittadino contestuali ad eventi della
+      e i professionisti;
+
+
+      Cinque tipologie di flussi di interfaccia, ricorrenti rispetto
+      all’erogazione di servizi digitali per il cittadino;
+
+
+      Flussi, servizi per il cittadino e procedure corrispondenti sono stati
+      scelti considerando il vantaggio apportato sia direttamente al cittadino
+      che all’amministrazione.
+
+
+      L’implementazione di tali servizi al cittadino, facilitata dalle tipologie
+      di flussi di interfaccia, consente il raggiungimento _“\_\___**di Linee
+      Guida a livello nazionale**_” e anticipa standard europei.
+
+
+      # Implementazione di sito comunale
+
+
+      Il modello di sito comunale, messo a disposizione all’indirizzo
+      [[https:/designers.italia.it/modello/comuni/](https://designers.italia.it/modello/comuni/)]
+      , è stato adottato nel progetto .
+
+
+      comprende due strumenti fondamentali :
+
+
+      ● l’architettura dell’informazione del sito comunale
+
+
+      ● i template html del sito comunale.
+
+
+      ## L’architettura dell’informazione del sito comunale:
+
+
+      L’architettura dell’informazione del sito comunale definisce e organizza
+      le informazioni contenute all’interno del sito di un Comune.
+
+
+      L’architettura contiene indicazioni sulla gerarchia delle pagine di primo
+      e secondo livello, sui content type, sui sistemi di navigazione e sulle
+      tassonomie per tutte le aree del sito di un Comune.
+
+
+      L’architettura non contiene una descrizione dettagliata delle
+      caratteristiche dei singoli servizi digitali di un Comune, ma una
+      struttura standard di presentazione di un servizio digitale per il
+      cittadino (scheda servizio) fino alla sua parte informativa.
+
+
+      ## I template html del sito comunale
+
+
+      Il modello di sito comunale è stato tradotto in una serie di template HTML
+      già pronti all’uso e validati in termini di accessibilità e conformità
+      alle linee guida emanate ai sensi del CAD, in cui ogni Comune può inserire
+      i propri contenuti. , sia in caso di adesione al Pacchetto cittadino
+      informato, sia in caso di adesione al Pacchetto cittadino attivo.:
+
+
+      ## Raggiungimento dell’obiettivo di conformità al modello sito comunale
+
+
+      Al termine del processo di rilascio del sito comunale, l’ente dovrà
+      attestare la conformità alle seguenti caratteristiche, che rappresentano
+      ai fini di questo avviso la conformità del sito comunale realizzato al
+      modello fornito, pubblicato al seguente link :
+
+
+      https://areariservata.padigitale2026.gov.it/Pa\_digitale2026\_dettagli\_avviso?id=a017Q000017NZMCQA4#allegati
+
+
+      Allegato 2
+
+
+      # Servizi digitali per il cittadino oggetto di realizzazione
+
+
+      ## Lista dei servizi
+
+
+      Per facilitare la comprensione del livello di granularità degli obiettivi
+      di questo avviso, per quanto riguarda i servizi digitali per il cittadino
+      è necessario specificare i diversi livelli di dettaglio cui questo
+      documento fa riferimento, che collegano da un lato i bisogni del
+      cittadino, dall’altra i livelli di granularità di categorie della
+      classificazione dei servizi per le amministrazioni (definita a partire dal
+      TUEL e dalle attività di ricerca, in conformità con l’avviso 1.2) e le
+      procedure amministrative:
+
+
+      Tutti i servizi previsti dalla misura 1.4.1 “Esperienza del Cittadino nei
+      Servizi Pubblici “ sono stati realizzati ad eccezione di quelli vincolati
+      alle funzionalità di Back-End strutturati (es. Pagamento Tributi)
+
+
+      # Tipologie di flussi di interfaccia al cittadino
+
+
+      Sebbene i contenuti dei diversi processi necessari ad erogare i servizi
+      per il cittadino siano diversi, i passaggi che il cittadino deve fare per
+      avviare un’istanza saranno simili. La creazione di interfacce coerenti e
+      ricorrenti permette al cittadino una più facile fruizione dei servizi
+      digitali stessi.
+    shortDescription: |-
+      Sito istituzionale e piattaforma Cartografica unificata per la gestione
+      del territorio e inside
